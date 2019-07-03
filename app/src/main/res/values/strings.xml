@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kwetu Appartments</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_view_and_buy">Apartment Kwetu</string>
+    <string name="title_activity_view_image1">Simple Stylish Apartment 1</string>
+    <string name="description">Description \nApartment Name: Simple Stylish Apartments \nAvailable Apartments: 7
+    \nBooked Apartments: 3 \nPrize: 1.1M
+    </string>
+    <string name="title_activity_view_image2">Eloquent Complexity Apartments</string>
+    <string name="title_activity_view_image3">Family Model Apartments</string>
+    <string name="title_activity_view_image4">Classic Colorful Apartment</string>
+    <string name="title_activity_purchase">Buy This Apartment</string>
+</resources>

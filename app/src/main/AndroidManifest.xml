@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kwetuappartments">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".PurchaseActivity"
+            android:label="@string/title_activity_purchase"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".VI.ViewImage4"
+            android:label="@string/title_activity_view_image4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VI.ViewImage3"
+            android:label="@string/title_activity_view_image3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VI.ViewImage2"
+            android:label="@string/title_activity_view_image2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VI.ViewImage1"
+            android:label="@string/title_activity_view_image1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LogInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
